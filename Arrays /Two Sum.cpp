@@ -31,6 +31,6 @@ public:
             }
             mp[nums[i]]=i; // key(number and value(index) pushing in map
         }
-        return {}; // for empty case
+        return {}; // since the function return vector<int> so we have to return here something or might be an empty vector
     }
 };
